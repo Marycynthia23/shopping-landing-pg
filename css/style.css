@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:blueviolet;
+
+}
+.clearfix{
+    clear: both;
+}
+nav{
+    padding: 60px;
+}
+nav #logo{
+   float:left;
+   height:100px;
+   width:100px;
+   border-radius:50%;
+   background:#ccc;
+   margin-right:100px;
+}
+nav ul{
+    float:left
+ }
+ nav ul li{
+    float:left;
+    list-style:none;
+    margin-right:30px;
+ }
+
+ nav ul li a{
+    display: inline-block;
+    padding:10px;
+    color:#fff;
+    font-family: calibri;
+    font-size:20px;
+    text-decoration: none;
+ }
+
+ nav .stores{
+    float:right;
+    padding:10px 20px;
+    background:rgba(255,255,255,.5);
+    border-radius:50px;
+    font-family: calibri;
+ }
+ nav .stores a{
+    text-decoration: none;
+    color:#eee;
+    
+ }
+ nav .stores a:first-child{
+    padding-right:10px;
+    margin-right:10px;
+    border-right:1px solid #ccc;
+    
+ }
+
+ .lay-lft, .lay-rgt{
+     float:left;
+ }
+
+ .lay-lft{
+    padding:10px 100px;
+    width:40%;
+    font-family: calibri;
+}
+.lay-lft .info-head{
+    font-weight: bold;
+    font-size:40px;
+    margin-bottom:10px;
+}
+.lay-lft .info-desc{
+    font-size:20px;
+    color:#ccc;
+}
+.lay-lft button{
+    font-size:15px;
+    background:#fff;
+    color:#000;
+    padding:20px 40px;
+    border:none;
+    border-radius:4px;
+    position: relative;
+    top:40px;
+}
+
+.lay-rgt{
+    float:left;
+}
+
+.paginate-btn-cont{
+    position: relative;
+    top:100px;
+}
+
+.paginate-btn-cont a{
+    display:inline-block;
+    padding:10px 15px;
+    border-radius:50%;
+    text-align: center;
+    
+    justify-content: center;
+}
+
+.paginate-btn-cont a:first-child{
+    background:#fff;
+    color:#000;
+    margin-right:20px;
+}
+.paginate-btn-cont a:last-child{
+    background:#555;
+    color:#fff;
+}
+.lay-rgt img{
+    width:300px
+}
